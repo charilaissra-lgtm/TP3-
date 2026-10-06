@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Structuration par les Listes</title>
+</head>
+
+<body>
+ <section id ="exercice-listes">
+    <h1>1.Structuration par les Listes</h1>
+
+     <h2>programme de formation </h2>
+
+    <!-- 1. Liste des modules avec sous-listes -->
+
+    <ul>
+        <li>
+            Frontend
+            <ul>
+                <li>HTML5/Sémantique</li>
+                <li>CSS3/Grid & Flexbox</li>
+            </ul>
+        </li>
+
+        <li>
+            Backend
+            <ul>
+                <li>Node.js/Express</li>
+                <li>MongoDB</li>
+            </ul>
+        </li>
+
+
+    <!-- 2. Liste ordonnée : Procédure de Déploiement -->
+    <h2>Procédure de Déploiement</h2>
+    <ol start="1"></ol>
+<ol>
+    <li value="1">Valider le code avec W3C.</li>
+    <li value="2">Effectuer le commit final sur Git.</li>
+    <li value="3">Pousser le code sur GitHub.</li>
+</ol>
+
+
+    <!-- 3. Liste de définitions -->
+    <h2>Glossaire Web</h2>
+
+    <dl>
+        <dt>HTTP</dt>
+        <dd>
+            HyperText Transfer Protocol : protocole de communication entre un client et un serveur Web.
+        </dd>
+
+        <dt>DOM</dt>
+        <dd>
+            Document Object Model : représentation en arabe structuré d'un document HTML.
+        </dd>
+
+</body>
+</html>
+<section id="exercice-tableau-simple">
+    <table border="2"
+    <tableau>
+
+        <caption>2.tableau comparatifif d'hébergement web respectant l'architecture HTML5:</caption>
+        <thead>
+            <tr> 
+                <th>offre</th>
+                <th>Espace Disque</th>
+                <th>Base de données</th>
+                <th>Trafic</th>
+                <th>Trific Mensuel</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th>Starter</th>
+                <td>20Go</td>
+                <td>1</td>
+                <td>illimité</td>
+                <td>2.99$</td>
+
+            </tr>
+            <tr>
+                <th>Pro</th>
+                <td>100Go</td>
+                <td>5</td>
+                <td>illimité</td>
+                <td>6.99$</td>
+            </tr>
+            <tr>
+                <th>Entreprie</th>
+                <td>500Go</td>
+                <td>illimité</td>
+                <td>illimité</td>
+                <td>14.99$</td>
+            
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <th>Moyenne</th>
+                <td>--</td>
+                <td>--</td>
+                <td>--</td>
+                <td>8.32$</td>
+            </tr>
+        </tfoot>
+    </tableau>
+</section>
+    <section id="exercices-tableau-complexe">
+        <h2>emploi du temp universitaire (tableau complexe)</h2>
+        <caption>
+            emploi du temps-licence l Informatique
+        </caption>
+        <table border="1">
+            <thead>
+                <tr>
+                    <th scope="row">jours\Grenau</th>
+                    <th scope="row">08h00-10h00</th>
+                    <th scope="row">10h00-12h00</th>
+                    <th scope="row">12h00-14h00</th>
+                    <th scope="row">14h00-16h00</th>
+                    <th scope="row">16h00-18h00</th>
+                </tr>
+               
+            </thead>
+            <tbody>
+                <tr>
+                    <th>lundi</th>
+                    <td>algorithmique</td>
+                    <td>web semantique</td>
+                    <td scope="row" rowspan="5">Pause Déjeuner</td>
+                    <td>base de données </td>
+                    <td>Anglais</td>
+                </tr>
+                <tr>
+                    <th>mardi</th>
+                    <td scope="row" colspan="2">Tp Reseau</td>
+                    <td>Systemes d'exploitation</td>
+                    <td>auto formation </td>
+                   
+                </tr>
+                <tr>
+                    <th>mercredi</th>
+                    <td>Mathématiques</td>
+                    <td>Architecture Web</td>
+                    <td scope="row" colspan="2">Projets Tutoré </td>
+                </tr>
+                <tr>
+                    <th>jeudi</th>
+                    <td>seminaire web</td>
+                    <td>seminaire web</td>
+                    <td>tp web</td>
+                    <td>tp web</td>
+                </tr>
+                <tr>
+                    <th>vendredi</th>
+                    <td scope="row" colspan="2">Projets web(matin) </td>
+                    <<td scope="row" colspan="2">projet web (apres midi) </td>
+                </tr>
+               
+               
+               
+            </tbody>
+        </table>
+
+    </section>
+</body>
+</html>
